@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(fonts/Rubik-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #FFFEEF;
+    font-family: 'Rubik';
+}
+
+a {
+    text-decoration: 0;
+}
+
+header {
+    width: 1903px;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 76px;
+    height: 76px;
+    background-color: black;
+    color: azure;
+    margin-left: 150px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.nav-item {
+    width: 56px;
+    height: 25px;
+    margin-right: 95px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #0E0D0D;
+    transition-duration: 0.3s;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: #E60D20;
+}
+
+.nav-item:nth-child(4) {
+    padding: 35px;
+}
+
+
+
+
+.cart {
+    width: 25px;
+    height: 25px;
+    background-image: url(../pictures/Icon-cart.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 150px;
+    padding: 15px;
+}
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.circle {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #E60D20;
+    color: #FFFEEF;
+    line-height: 20px;
+    text-align: center;
+}
+
+.cart-box{
+    width: 500px;
+    height: 500px;
+    background-color: gainsboro;
+    position: absolute;
+    left: 1225px;
+    top: 115px;
+    padding: 25px;
+    display: none;
+    border-radius: 3px;
+    border: 3px thin #0E0D0D;
+    z-index: 1;
+}
+
+.cart-product{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.product-pic{
+    width: 140px;
+    height: 140px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+}
+.empty-cart{
+    font-size: 25px;
+    font-weight: 500;
+    display: block;
+}
+
+.pic-1{
+    background-image: url(../pictures/arrival1.png);
+}
+
+.pic-2{
+    background-image: url(../pictures/arrival2.png);
+}
+
+.pic-3{
+    background-image: url(../pictures/arrival3.png);
+}
+
+.footer-items {
+    width: 1903px;
+    height: 170px;
+    flex-direction: row;
+    color: #FFFEEF;
+    float: left;
+    margin-top: 137px;
+}
+
+.list {
+    height: 164px;
+    float: left;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.caption {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.item {
+    text-decoration: none;
+    margin-top: 15px;
+    color: #FFFEEF;
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rights {
+    width: 260px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #A6A6A6;
+    margin-left: 830px;
+}
+
+.nothing-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1903px;
+    height: 277px;
+    color: #E60D20;
+    font-size: 76px;
+    font-weight: 500;
+}
+
+footer {
+    width: 1903px;
+    height: 470px;
+    background-color: #0E0D0D;
+    flex-direction: column;
+}
+
+.active-page {
+    color: #E60D20;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ff-Rubik {
+    font-family: 'Rubik';
+}

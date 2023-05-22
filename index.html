@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <div class="logo d-flex">E-SHOP</div>
+        </a>
+        <nav class="d-flex">
+            <a href="index.html">
+                <div class="nav-item active-page">NEWS</div>
+            </a>
+            <a href="pages/man.html">
+                <div class="nav-item">MAN</div>
+            </a>
+            <a href="pages/woman.html">
+                <div class="nav-item">WOMAN</div>
+            </a>
+            <a href="pages/delivery.html">
+                <div class="nav-item">DELIVERY</div>
+            </a>
+        </nav>
+
+        <div class="cart" onclick="cartOpening()">
+            <div class="circle">1</div>
+            <div class="cart-box">
+                <div class="empty-cart">Your cart is empty</div>
+                <div class="cart-product" id="product-1">
+                    <div class="product-pic pic-1"></div>
+                    <div class="product-description">
+                        <div class="product-name">Vintage Shoes</div>
+                        <div class="product-price">250$</div>
+                    </div>
+                </div>
+                <div class="cart-product" id="product-2">
+                    <div class="product-pic pic-2"></div>
+                    <div class="product-description">
+                        <div class="product-name">Vintage Shoes</div>
+                        <div class="product-price">250$</div>
+                    </div>
+                </div>
+                <div class="cart-product" id="product-3">
+                    <div class="product-pic pic-3"></div>
+                    <div class="product-description">
+                        <div class="product-name">Vintage Shoes</div>
+                        <div class="product-price">250$</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    </header>
+    <main>
+        <div class="collection">
+            <div class="collection-main-text">THE MOST POPULAR COLLECTION</div>
+            <div class="collection-text">The most comfortable shoes for spring from new collection.</div>
+        </div>
+        <div class="sale-line">
+            <span>% OFF 15% OFF 15% OFF 15% OFF 15% OFF 15% OF</span>
+        </div>
+        <div class="arrivals">
+            <div class="arrivals-text">NEW ARRIVALS</div>
+            <div class="catalog d-flex">
+                <div class="product">
+                    <a href="pages/shoes1.html">
+                        <div class="picture-1 arrival-1"></div>
+                        <div class="product-text">Vintage shoes</div>
+                        <div class="price">250.00$</div>
+                    </a>
+                    <button class="cart-btn" onclick="cartBtn()">Add to cart</button>
+                </div>
+                <div class="product">
+                    <a href="pages/shoes2.html">
+                        <div class="picture-1 arrival-2"></div>
+                        <div class="product-text">Vintage shoes</div>
+                        <div class="price">320.00$</div>
+                    </a>
+                    <button class="cart-btn" onclick="cartBtn()">Add to cart</button>
+                </div>
+                <div class="product">
+                    <a href="pages/shoes3.html">
+                        <div class="picture-1 arrival-3"></div>
+                        <div class="product-text">Vintage shoes</div>
+                        <div class="price">250.00$</div>
+                    </a>
+                    <button class="cart-btn" onclick="cartBtn()">Add to cart</button>
+                </div>
+                <div class="product">
+                    <a href="pages/shoes4.html">
+                        <div class="picture-1 arrival-4"></div>
+                        <div class="product-text">Vintage shoes</div>
+                        <div class="price">125.00$</div>
+                    </a>
+                    <button class="cart-btn" onclick="cartBtn()">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="new-collection">
+            <div class="picture-2"></div>
+            <div class="text-box d-flex">
+                <div class="new-coll-caption">get ready for a new collection</div>
+                <div class="new-coll-text">We are so excited to announce we have launched a new shoes collection. You
+                    have such a good chance to be the first to get one!</div>
+                <a href="#">
+                    <button class="new-coll-btn">Learn more</button>
+                </a>
+            </div>
+        </div>
+        <div class="choice d-flex">
+            <div class="choice-pic1"></div>
+            <div class="choice-pic2 d-flex">
+                <div class="choice-text">OUR CHOICE</div>
+            </div>
+            <div class="choice-pic3"></div>
+        </div>
+        <div class="follow-us">
+            <div class="follow-us-text">FOLLOW US</div>
+            <div class="follow-us-pics d-flex">
+                <div class="picture-3 follow-pic1"></div>
+                <div class="picture-3 follow-pic2"></div>
+                <div class="picture-3 follow-pic3"></div>
+                <div class="picture-3 follow-pic4"></div>
+                <div class="picture-3 follow-pic5"></div>
+                <div class="picture-3 follow-pic6"></div>
+            </div>
+        </div>
+        <div class="subscribe d-flex">
+            <div class="subscribe-block d-flex">
+                <div class="sub-text-1">Subscribe for our weekly news</div>
+                <form class="sub-form d-flex">
+                    <input type="email" id="sub-email" class="input-field sub-email" placeholder="Email" maxlength="40"
+                        required>
+                    <input type="text" id="sub-number" class="input-field sub-phone" placeholder="Phone" maxlength="13"
+                        required>
+                    <div class="sub-text-2">By clicking the <b>Subscribe</b> button, you are agreeing to our Privacy &
+                        Cookie Policy.</div>
+                    <a href="#">
+                        <button class="sub-btn">Subscribe</button>
+                    </a>
+                </form>
+            </div>
+            <div class="picture-4"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-items d-flex">
+            <div class="list">
+                <ul>
+                    <span class="caption">ABOUT</span>
+                    <a href="pages/our-story.html">
+                        <li class="item">Our story</li>
+                    </a>
+                    <a href="pages/shop.html">
+                        <li class="item">Shop</li>
+                    </a>
+                    <a href="pages/contacts.html">
+                        <li class="item">Contacts</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <span class="caption">HELP & SUPPORT</span>
+                    <a href="pages/faq.html">
+                        <li class="item">FAQ</li>
+                    </a>
+                    <a href="pages/terms&conditions.html">
+                        <li class="item">Terms & Conditions</li>
+                    </a>
+                    <a href="pages/privacy-policy.html">
+                        <li class="item">Privacy policy</li>
+                    </a>
+                    <a href="pages/shipping&retutns.html">
+                        <li class="item">Shipping & Retutns</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <span class="caption">SOCIAL MEDIA</span>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <li class="item">Instagram</li>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <li class="item">Twitter</li>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <li class="item">Facebook</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="rights">©2023 All Rights Reserved</div>
+    </footer>
+    <script src="script/main.js"></script>
+</body>
+
+</html>

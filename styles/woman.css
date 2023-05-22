@@ -1,0 +1,86 @@
+
+.catalog {
+    width: 1620px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 360px;
+    height: 573px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+.picture {
+    width: 360px;
+    height: 469px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    transition-duration: 0.3s;
+}
+
+.picture:hover {
+    width: 370px;
+    height: 479px;
+    margin-bottom: 10px;
+}
+
+.product-text {
+    width: 134px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    float: left;
+    color: #0E0D0D;
+}
+
+.price {
+    width: 87px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    float: left;
+    margin-left: 139px;
+    color: #E60D20;
+}
+
+.cart-btn {
+    width: 162px;
+    height: 44px;
+    background-color: #FFFEEF;
+    border: 2px solid #0E0D0D;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #0E0D0D;
+    margin-top: 20px;
+    transition-duration: 0.3s;
+}
+
+.cart-btn:hover {
+    background-color: #0E0D0D;
+    color: #FFFEEF;
+    cursor: pointer;
+}
+header{
+    margin-bottom: 150px;
+}
+footer{
+    margin-top: 150px;
+}
+.product-pic-1{
+    background-image: url(../pictures/arrival1.png);
+}
+.product-pic-2{
+    background-image: url(../pictures/arrival2.png);
+}
+.product-pic-3{
+    background-image: url(../pictures/arrival3.png);
+}
+.product-pic-4{
+    background-image: url(../pictures/arrival4.png);
+}
